@@ -5,7 +5,7 @@ An original voxel snowball competition for portrait phones. Solo against three A
 ## Play
 Drag anywhere on the arena to move and pack snow. Release to automatically throw at the closest rival (gold marker). Tap for a quick throw; hold for a heavy throw that breaks cover. Collect a gift for three triple shots. First to the target wins; at timeout the highest unique score wins. Ties do not count as a cup win. Win to unlock the next of three arenas. Replays retain best medals.
 
-Desktop: WASD / arrows to move, hold and release Space to throw, Escape to pause. Music begins after a start/resume gesture. No external audio files or network dependencies.
+Desktop: WASD / arrows to move, hold and release Space to throw, Escape to pause. Music begins after a start/resume gesture. The supplied video soundtrack is embedded in both offline entries; no network dependencies.
 
 Open index.html or standalone.html directly, or host this directory on a static HTTPS server. Both entries embed all code and Three.js. English, portrait-first layout; landscape shows an orientation reminder. WebGL is required.
 
@@ -17,4 +17,4 @@ Automated core/controller/SDK mocks are provided. Actual GameWave App import and
 ## Develop
 Run `node build.cjs` to rebuild both offline entries; `node test.mjs`, `node sdk-test.mjs`, `node controller-test.mjs` to verify.
 
-Original procedural voxel art, arena layouts and synthesized soundtrack. Three.js is MIT licensed; see vendor/THREE-LICENSE.txt.
+Original procedural voxel art and arena layouts. BGM extracted from the user-supplied video; see MUSIC-PROVENANCE.md. Three.js is MIT licensed; see vendor/THREE-LICENSE.txt.
