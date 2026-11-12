@@ -18,3 +18,5 @@ Automated core/controller/SDK mocks are provided. Actual GameWave App import and
 Run `node build.cjs` to rebuild both offline entries; `node test.mjs`, `node sdk-test.mjs`, `node controller-test.mjs` to verify.
 
 Original procedural voxel art and arena layouts. BGM extracted from the user-supplied video; see MUSIC-PROVENANCE.md. Three.js is MIT licensed; see vendor/THREE-LICENSE.txt.
+
+Visual refinement: clustered snow textures, staggered masonry, directional timber grain, knitted fabric and glossy goggle materials; warm directional light/cool fill, tighter shadow coverage, jacket seam guards, numbered backpacks, detailed roof ridges and animated cable lift. In-match UI is a single compact top strip. User-supplied BGM is unchanged.
